@@ -1,0 +1,158 @@
+/*Their is the first i start with the body*/
+body{
+    width: 100%;
+    height: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*Their is first div*/
+.d1{
+    width: 100%;
+    height: 10%;
+    color: black;
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/*Their is starts the nav design*/
+.ul1 {
+    list-style-type:none;
+    gap: 20px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.ul3{
+    list-style-type:none;
+    display: flex;
+    gap: 20px;
+}
+.ul1 li a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+/*Their also nav collection*/
+.ul3 li a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.ul4 li a{
+    text-align: center;
+    text-decoration: none;
+    color:white;
+}
+.ul5 li a{
+    text-align: center;
+    text-decoration: none;
+    color:white;
+}
+/*div second*/
+.d2{
+    width: 100%;
+    height: 10%;
+    background-color:black;
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;align-items: center;
+
+}
+/*Their is another nav*/
+ul{
+    display: flex;
+    flex-direction: row;
+}
+.ul4{
+    list-style-type: none;
+    gap: 20px;
+}
+.ul5{
+    list-style-type: none;
+    gap: 20px;
+}
+/*Third div*/
+.d3{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+}
+/*Fourth div*/
+.d4{
+    width: 60%;
+    height: 100%;
+}
+/*Photo*/
+.photo{
+    width: 100%;
+    height: 100%;
+}/*Fifth div*/
+.d5{
+    width: 40%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+.texts{
+    
+    font-weight: 800;
+}
+/*Their is the animated text h1*/
+.text{
+    margin-top: 50px;
+    font-weight: 600;
+}
+.animated_text h1 {
+    -webkit-text-stroke: 1px #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: transparent;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(var(--primary-color), var(--primary-color));
+    -webkit-background-clip: text;
+    background-clip: none;
+    background-position: -500px 0;
+    animation: backcolor 5s linear infinite;
+}/*Their is keyframes*/
+@keyframes backcolor {
+
+    100% {
+        -webkit-text-stroke: 1px #33383C;
+        background-position: 0 0;
+    }
+}
+/*Their button size*/
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.ul6 {
+    list-style-type:none;
+    gap: 20px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.ul6 li a{
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 80%;
+    }
+
+    body {
+        margin: 0;
+    }
+}
